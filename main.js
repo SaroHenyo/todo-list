@@ -1,7 +1,7 @@
 window.addEventListener( 'load',  ( ) => {
-        const form = document.querySelector( '#new-task-form' );
-        const input = document.querySelector( '#new-task-form' );
-        const tasksContainer = document.querySelector( '#tasks');
+        const form = document.querySelector('#new-task-form');
+        const input = document.querySelector ('#new-task-input');
+        const tasksContainer = document.querySelector('#tasks');
 
         form.addEventListener( 'submit', (e) => {
                 e.preventDefault();
